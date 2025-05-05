@@ -3,5 +3,5 @@ WORKDIR /app
 COPY package*.json ./
 RUN npm install
 COPY . .
-EXPOSE 
+EXPOSE 5000
 CMD ["node", "storage.js"]
